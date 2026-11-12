@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+
+# Participant-level inputs and generated outputs stay local.
+data/raw/Citizen*.xlsx
+data/processed/*
+!data/processed/.gitkeep
+output/figures/*
+!output/figures/.gitkeep
+output/results/*
+!output/results/.gitkeep
